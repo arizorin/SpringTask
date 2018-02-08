@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/app/app.spring.xml</file>
+          <file>file://$MODULE_DIR$/../ext2/src/main/resources/ext2/ext2.spring.xml</file>
+          <file>file://$MODULE_DIR$/../base/src/main/resources/base/base.spring.xml</file>
+          <file>file://$MODULE_DIR$/../ext1/src/main/resources/ext1/ext1.spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="ru.mirea.springtask.app" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Spring-4.3.14.RELEASE" level="project" />
+    <orderEntry type="module" module-name="base" />
+    <orderEntry type="module" module-name="ext2" />
+    <orderEntry type="module" module-name="ext1" />
+  </component>
+</module>
